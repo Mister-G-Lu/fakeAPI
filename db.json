@@ -1,14 +1,37 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "bases":
+  [
+    "grasp": {
+      "power": 2
+      "priority": 5
+      "guard": 0
+      "range": 1
+      "hit": [{"pull", 1}, {"push", 1}]
+    },
+    "burst": {
+      "start": [{ "retreat", 1}, {"retreat", 2}],
+      "power": 3,
+      "priority": 1,
+      "guard": 0
+      "range": [2, 3]
+    },
+    "strike": {
+      "power": 4,
+      "priority": 3,
+      "guard": 5,
+      "range": 1
+    },
+    "shot": {
+      "power": 3,
+      "priority": 2,
+      "guard": 2,
+      "range": [1,2,3,4]
+    },
+    "dodge": {
+      "power": null,
+      "priority": 3,
+      "guard": 0,
+      "range": null
+    }
+  ]
 }
