@@ -1,37 +1,63 @@
 {
-  "bases":
-  [
-   { "name": "grasp",
-      "power": 2,
-      "priority": 5,
-      "guard": 0,
-      "range": 1,
-      "hit": [{"pull", 1}, {"push", 1}]
-    },
-    { "name": "burst",
-      "start": [{ "retreat", 1}, {"retreat", 2}],
-      "power": 3,
-      "priority": 1,
-      "guard": 0,
-      "range": [2, 3]
-    },
-   { "name": "strike",
-      "power": 4,
-      "priority": 3,
-      "guard": 5,
-      "range": 1
-    },
-    { "name": "shot",
-      "power": 3,
-      "priority": 2,
-      "guard": 2,
-      "range": [1,2,3,4]
-    },
-    { "name": "dodge",
-      "power": null,
-      "priority": 3,
-      "guard": 0,
-      "range": null
-    }
-  ]
+    "bases": [
+        {
+            "name": "grasp",
+            "power": 2,
+            "priority": 5,
+            "guard": 0,
+            "range": 1,
+            "hit": [
+                {
+                    "pull": 1
+                },
+                {
+                    "push": 1
+                }
+            ]
+        },
+        {
+            "name": "burst",
+            "start": [
+                {
+                    "retreat": 1
+                },
+                {
+                    "retreat": 2
+                }
+            ],
+            "power": 3,
+            "priority": 1,
+            "guard": 0,
+            "range": [
+                2,
+                3
+            ]
+        },
+        {
+            "name": "strike",
+            "power": 4,
+            "priority": 3,
+            "guard": 5,
+            "range": 1
+        },
+        {
+            "name": "shot",
+            "power": 3,
+            "priority": 2,
+            "guard": 2,
+            "range": [
+                1,
+                2,
+                3,
+                4
+            ]
+        },
+        {
+            "name": "dodge",
+            "power": null,
+            "priority": 3,
+            "guard": 0,
+            "range": null
+        }
+    ]
 }
