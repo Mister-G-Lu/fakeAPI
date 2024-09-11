@@ -1,9 +1,7 @@
 {
-    "story": [
-        { 
+    "story": {
             "intro": {"text": "In the depths of Indines, we find ourselves face to face with the ultimate battles..."}
-        }
-    ],
+},
     "bases": [
         {
             "name": "grasp",
